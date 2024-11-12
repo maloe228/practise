@@ -7,8 +7,13 @@
 .navigate_rus {
 }
 code {
-    background-color: #498743;
+    background-color: #5caa54;
     border-radius:  25% 10%;
     font-family: courier, monospace;
     padding: 0 3px;
+}
+.form_paragraph{
+    text-align: center;
+    background-color: darkgray;
+    border-radius:  100% 100%;
 }
