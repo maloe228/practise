@@ -1,0 +1,14 @@
+.defaults_paragraph{
+    text-align: justify
+}
+.arh_spb{
+}
+
+.navigate_rus {
+}
+code {
+    background-color: #498743;
+    border-radius:  25% 10%;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
