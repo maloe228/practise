@@ -1,0 +1,37 @@
+body{
+    background-color: #FFEEEE; /*Так задаётся фон страницы*/
+    font-family: Georgia, serif;
+}
+h1{
+    font-family: Arial, Helvetica,sans-serif;
+    color: #040D12;
+    background-image: url("26-2/images/cat.png");
+}
+h2{
+    font-family: Arial, Helvetica,sans-serif;
+    color: #800000;
+}
+p{
+    text-indent: 30px;
+}
+.latin{
+    font-style: italic;
+    color: #450000;
+}
+.author{
+    font-style: italic;
+    text-indent: 0;
+}
+.author:hover {
+    background-color: #ff0000;
+    width: 200px;
+
+}
+.quote{
+    background-color: #FEFEE2;
+    text-indent: 0;
+    width:50vw;
+    margin: 0 30px 30px 10px;
+    border: 1px dotted #000000 ;
+    padding: 10px;
+}
