@@ -1,5 +1,5 @@
 body{
-    background-color: #93B1A6;
+    background-color: #93B1A6; /*Так задаётся фон страницы*/
 }
 h1{
     color: #040D12;
@@ -9,19 +9,19 @@ h2{
     background-color: #5C8374;
 }
 .defaults_paragraph{
-    text-align: justify;
+    text-align: justify; /*Выравнивание текста по ширине*/
     color: #040D12;
 }
 .form_paragraph{
-    font-style: italic;
-    text-align: center;
-    color: #040D12;
-    background-color: #ffffff;
-    border-radius: 200px;
-    font-weight: bold;
-    width: 200px;
-    border: 2px solid #183D3D;
-
+    font-style: italic; /*Курсив текст*/
+    text-align: center; /*Текст по центру блока*/
+    color: #040D12; /*Цвет текста*/
+    background-color: #ffffff; /*Цвет фона*/
+    border-radius: 200px; /*Скругление*/
+    font-weight: bold; /*Жирный текст*/
+    border: 2px solid #183D3D; /*Рамка*/
+    width: 200px; /*Размер блока*/
+    margin: auto; /*Выравнивание блока*/
 }
 .form_paragraph:hover{
     background-color: #5C8374;
@@ -30,8 +30,8 @@ code {
     color: #040D12;
     background-color: #ffffff;
     border-radius:  30% 10%;
-    font-family: courier, monospace;
-    padding: 0 3px;
+    font-family: courier, monospace; /*Очерёдность загрузки шрифтов*/
+    padding: 0 3px; /*Отступы*/
 }
 #definition_cli{
     border: 1px solid #183D3D;
