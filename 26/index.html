@@ -4,9 +4,12 @@
         <meta charset="UTF-8">
         <title>Примеры оформления текста: работа Вячеславова Дениса</title>
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="css/prism.css" rel="stylesheet">
 
         <link rel="shortcut icon" href="images/logo4.svg">
+
+        <script src="js/prism.js"></script>
     </head>
     <body>
         <h1>Примеры оформления текста</h1>
@@ -44,15 +47,17 @@
 
         <h2>Текст программы</h2>
 
-        <p class="defaults_paragraph">
-            <code>program qq;<br>
-                var <em>a</em>, <em>b</em>: integer;<br>
-                begin<br>
-                writeln('Введите два числа');<br>
-                read(<em>a</em>,<em>b</em>);<br>
-                writeln(<em>a</em>,'+',<em>b</em>,'=',<em>a</em>+<em>b</em>);<br>
+
+        <pre>
+            <code class="language-pascal">
+                program qq;
+                var a, b: integer;
+                begin
+                writeln('Введите два числа');
+                read(a,b);
+                writeln(a,'+',b,'=',a+b);
                 end;
             </code>
-        </p>
+        </pre>
     </body>
 </html>

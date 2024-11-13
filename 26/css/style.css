@@ -26,12 +26,12 @@ h2{
 .form_paragraph:hover{
     background-color: #5C8374;
 }
-code {
-    color: #040D12;
-    background-color: #ffffff;
-    border-radius:  30% 10%;
-    font-family: courier, monospace; /*Очерёдность загрузки шрифтов*/
-    padding: 0 3px; /*Отступы*/
+/*Заменён на prism*/
+pre {
+    /*font-family: courier, monospace; Очерёдность загрузки шрифтов*/
+    /*padding: 0 3px; Отступы*/
+    width: 300px;
+    margin-left: auto;
 }
 #definition_cli{
     border: 1px solid #183D3D;
