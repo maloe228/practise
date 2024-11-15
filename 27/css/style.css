@@ -1,25 +1,38 @@
 body{
-    background-color: #93B1A6; /*Так задаётся фон страницы*/
+    background-image: url(../images/back.jpg); /*Так задаётся фон страницы*/
 }
 h1{
-    color: #040D12;
+    color: #F6EB9A;
+    background-color: #5853BC;
 }
 h2{
-    color: #040D12;
-    background-color: #5C8374;
+    color: #F6EB9A;
+    background-color: #362391;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .defaults_paragraph{
     text-align: justify; /*Выравнивание текста по ширине*/
-    color: #040D12;
+    color: #F6EB9A;
+    margin-top: 0;
 }
-.form_paragraph{
-    font-style: italic; /*Курсив текст*/
-    text-align: center; /*Текст по центру блока*/
-    color: #040D12; /*Цвет текста*/
-    background-color: #ffffff; /*Цвет фона*/
-    border-radius: 200px; /*Скругление*/
+.name{
     font-weight: bold; /*Жирный текст*/
-    border: 2px solid #183D3D; /*Рамка*/
-    width: 200px; /*Размер блока*/
-    margin: auto; /*Выравнивание блока*/
+    font-style: italic; /*Курсив текст*/
+    color: #fde52c; /*Цвет текста*/
+}
+img{
+    margin: 10px;
+}
+#shnitke{
+    float: left;
+}
+#beatles{
+    float: right;
+}
+#vysot{
+    float: right;;
+}
+#queen{
+    float: left;
 }
