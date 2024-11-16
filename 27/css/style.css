@@ -2,6 +2,7 @@ body{
     background-image: url(../images/back.jpg); /*Так задаётся фон страницы*/
 }
 h1{
+    text-align: center;
     color: #F6EB9A;
     background-color: #5853BC;
 }
@@ -35,4 +36,14 @@ img{
 }
 #queen{
     float: left;
+}
+.container1{
+    width: 80%; /*Ширина 80% от родительского элемента*/
+    margin: 0 auto; /*Внешний отступ*/
+    padding: 20px; /*Отступы сверху и снизу в 20 пикселей*/
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
 }
