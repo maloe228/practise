@@ -1,0 +1,25 @@
+body{
+    background-color: #93B1A6; /*Так задаётся фон страницы*/
+}
+h1{
+    color: #040D12;
+}
+h2{
+    color: #040D12;
+    background-color: #5C8374;
+}
+p{
+    text-align: justify; /*Выравнивание текста по ширине*/
+    color: #040D12;
+}
+.form_paragraph{
+    font-style: italic; /*Курсив текст*/
+    text-align: center; /*Текст по центру блока*/
+    color: #040D12; /*Цвет текста*/
+    background-color: #ffffff; /*Цвет фона*/
+    border-radius: 200px; /*Скругление*/
+    font-weight: bold; /*Жирный текст*/
+    border: 2px solid #183D3D; /*Рамка*/
+    width: 200px; /*Размер блока*/
+    margin: auto; /*Выравнивание блока*/
+}
