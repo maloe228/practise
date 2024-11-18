@@ -8,10 +8,12 @@
 #header {
     height: 80px;
     background: url('../images/header.jpg') no-repeat;
-    padding: 20px 10px;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+}
+
+/*Смещаем заголовок*/
+#header h1 {
+    margin-left: 200px;
+    padding-top: 20px;
 }
 
 /* Стиль для левой колонки с информерами погоды */
@@ -44,6 +46,12 @@ p {
 #content a {
     color: blue;
     text-decoration: underline;
+}
+
+/*Смещаем википедию вправо*/
+#content #href {
+    margin-right: 15px;
+    text-align: right;
 }
 
 /* Стиль для подвала */
