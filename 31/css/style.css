@@ -1,0 +1,63 @@
+/* Сброс отступов для всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Стиль для шапки страницы */
+#header {
+    height: 80px;
+    background: url('../images/header.jpg') no-repeat;
+}
+
+/*Смещаем заголовок*/
+#header h1 {
+    margin-left: 200px;
+    padding-top: 20px;
+}
+
+/* Стиль для левой колонки с информерами погоды */
+#pogoda {
+    width: 140px;
+    float: left;
+    margin-left: 10px;
+}
+
+/* Стиль для правой колонки с фотографиями */
+#photo {
+    width: 220px;
+    float: right;
+    margin-left: 10px;
+}
+
+/* Стиль для центрального содержимого */
+#content {
+    margin-left: 150px; /* Учитывая ширину и отступ блока #pogoda */
+    margin-right: 230px; /* Учитывая ширину и отступ блока #photo */
+}
+
+p {
+    margin: 5px; /* Отступы со всех сторон */
+    text-indent: 20px; /* Абзацный отступ (красная строка) */
+    line-height: 1.6; /* Межстрочный интервал для читаемости */
+}
+
+/* Стиль для ссылки на Википедию */
+#content a {
+    color: blue;
+    text-decoration: underline;
+}
+
+/*Смещаем википедию вправо*/
+#content #href {
+    margin-right: 15px;
+    text-align: right;
+}
+
+/* Стиль для подвала */
+#footer {
+    background-color: #CCCCCC; /* Серый фон */
+    padding: 5px 10px 10px 10px; /* Внутренние отступы */
+    text-align: center; /* Выравнивание текста по центру */
+    clear: both; /* Убираем обтекание */
+}
