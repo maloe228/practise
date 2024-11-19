@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>JS</title>
+
+        <link rel="stylesheet" href="css/style_JS.css">
+        <script src="js/loadxml.js"></script>
+
+        <link rel="shortcut icon" href="images/logo4.svg">
+    </head>
+    <body onLoad="init();">
+    <div id="data">
+        <script type="text/javascript">
+            function init() {
+                source = loadXMLDoc("europe2JS.xml");
+                loadStyle("europe2JS.xsl", "data");
+                return true;
+            }
+        </script>
+    </div>
+    </body>
+</html>
