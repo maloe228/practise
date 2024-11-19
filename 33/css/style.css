@@ -1,0 +1,53 @@
+/*Общие настройки страницы*/
+body{
+    background-color: #93B1A6; /*Так задаётся фон страницы*/
+}
+
+/*Заголовки, абзацы*/
+h1 {
+    color: #040D12;
+}
+h2 {
+    color: #040D12;
+}
+p {
+    text-align: justify; /*Выравнивание текста по ширине*/
+    color: #040D12;
+}
+
+/*Настройка блоков*/
+.y1 {
+    float: left;
+    margin-left: 30px;
+}
+#t {
+    float: left;
+    margin-left: 30px;
+    background-color: #94bbd3;
+}
+.y2 {
+    background-color: white;
+}
+
+/*Настройки таблицы*/
+.free td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+.free th {
+    background-color: rgb(174, 174, 174);
+}
+.free tr:nth-child(even) td {
+    background-color: rgb(186, 136, 136);
+}
+.free tr:nth-child(odd) td {
+    background-color: rgb(100, 144, 154);
+}
+.free {
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    margin: auto;
+}
