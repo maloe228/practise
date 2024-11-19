@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='car.xsl'?>
+<car>
+    <Авто Название="Ford Fusion" Фото="images/fordfsn.jpg" Ссылка="https://www.ford.com/cars/fusion/"/>
+    <Авто Название="Toyota Camry" Фото="images/toyotacamry.jpg" Ссылка="http://www.toyota.com/camry/"/>
+    <Авто Название="Honda Accord" Фото="images/hondaaccord.jpg" Ссылка="http://www.honda.com/accord/"/>
+    <Авто Название="BMW 3 Series" Фото="images/bmw3series.jpg" Ссылка="http://www.bmw.com/3series/"/>
+    <Авто Название="Audi A4" Фото="images/audia4.jpg" Ссылка="http://www.audi.com/a4/"/>
+    <Авто Название="Mercedes-Benz C-Class" Фото="images/mercedescclass.jpg" Ссылка="http://www.mercedes-benz.com/cclass/"/>
+    <Авто Название="Chevrolet Malibu" Фото="images/chevymalibu.jpg" Ссылка="http://www.chevrolet.com/malibu/"/>
+    <Авто Название="Nissan Altima" Фото="images/nissanaltima.jpg" Ссылка="http://www.nissan.com/altima/"/>
+    <Авто Название="Kia Optima" Фото="images/kiaoptima.jpg" Ссылка="http://www.kia.com/optima/"/>
+    <Авто Название="Hyundai Sonata" Фото="images/hyundaisonata.jpg" Ссылка="http://www.hyundai.com/sonata/"/>
+    <Авто Название="Volkswagen Passat" Фото="images/vwpassat.jpg" Ссылка="http://www.vw.com/passat/"/>
+    <Авто Название="Subaru Legacy" Фото="images/subarulegacy.jpg" Ссылка="http://www.subaru.com/legacy/"/>
+    <Авто Название="Mazda 6" Фото="images/mazda6.jpg" Ссылка="http://www.mazda.com/6/"/>
+    <Авто Название="Tesla Model 3" Фото="images/teslamodel3.jpg" Ссылка="http://www.tesla.com/model3/"/>
+    <Авто Название="Volvo S60" Фото="images/volvos60.jpg" Ссылка="http://www.volvo.com/s60/"/>
+    <Авто Название="Lexus ES" Фото="images/lexuses.jpg" Ссылка="http://www.lexus.com/es/"/>
+    <Авто Название="Jaguar XE" Фото="images/jaguarxe.jpg" Ссылка="http://www.jaguar.com/xe/"/>
+    <Авто Название="Infiniti Q50" Фото="images/infinitiq50.jpg" Ссылка="http://www.infiniti.com/q50/"/>
+    <Авто Название="Acura TLX" Фото="images/acuratlx.jpg" Ссылка="http://www.acura.com/tlx/"/>
+    <Авто Название="Porsche Panamera" Фото="images/porschepanamera.jpg" Ссылка="http://www.porsche.com/panamera/"/>
+</car>

@@ -5,7 +5,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>xml</title>
+    <title>xml_2</title>
 
     <link rel="stylesheet" href="css/style.css"/>
 
@@ -22,7 +22,7 @@
             <th>Площадь</th>
         </tr>
         <xsl:for-each select="//Страна">
-            <xsl:sort data-type="text" order="ascending" select="Название"/>
+            <xsl:sort data-type="text" order="ascending" select="@Название"/>
             <tr>
                 <td><xsl:value-of select="@Название"/></td>
                 <td><xsl:value-of select="@Столица"/></td>
@@ -40,7 +40,7 @@
             <th>Площадь</th>
         </tr>
         <xsl:for-each select="//Страна">
-            <xsl:sort data-type="number" order="descending" select="Население"/>
+            <xsl:sort data-type="number" order="descending" select="@Население"/>
             <tr>
                 <td><xsl:value-of select="@Название"/></td>
                 <td><xsl:value-of select="@Столица"/></td>
