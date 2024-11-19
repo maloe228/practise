@@ -10,9 +10,40 @@
 <!-- Правила преобразования XML-документа в HTML -->
     <table border="1">
         <tr>
-            <td><xsl:value-of select="//Страна/Название"/></td>
-            <td><xsl:value-of select="//Страна/Столица"/></td>
+            <th>Название</th>
+            <th>Столица</th>
+            <th>Население</th>
+            <th>Площадь</th>
         </tr>
+        <xsl:for-each select="//Страна">
+            <xsl:sort data-type="text" order="ascending" select="Название"></xsl:sort>
+            <tr>
+                <td><xsl:value-of select="Название"/></td>
+                <td><xsl:value-of select="Столица"/></td>
+                <td><xsl:value-of select="Население"/></td>
+                <td><xsl:value-of select="Площадь"/></td>
+            </tr>
+        </xsl:for-each>
+    </table>
+
+    <table border="1">
+        <tr>
+            <th>Название</th>
+            <th>Столица</th>
+            <th>Население</th>
+            <th>Площадь</th>
+        </tr>
+        <xsl:for-each select="//Страна">
+            <xsl:sort data-type="number" order="descending" select="Население"></xsl:sort>
+            <xsl:if test="Население > 20">
+            <tr>
+                <td><xsl:value-of select="Название"/></td>
+                <td><xsl:value-of select="Столица"/></td>
+                <td><xsl:value-of select="Население"/></td>
+                <td><xsl:value-of select="Площадь"/></td>
+            </tr>
+            </xsl:if>
+        </xsl:for-each>
     </table>
 
 <!-- ........................................... --> 
