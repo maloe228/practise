@@ -1,0 +1,108 @@
+/* Сброс отступов для всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Общие стили*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+/* Стиль для шапки страницы */
+#header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+/*Смещаем заголовок*/
+#header h1 {
+    margin-left: 30px;
+    /*padding-top: 20px;*/
+}
+
+/*Изображение у заголовка*/
+#header img {
+    margin-left: 10px;
+    width: 110px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#header img:hover {
+    content: url("../images/valaam.gif");
+}
+
+/* Стиль для центрального содержимого */
+#content {
+    margin-left: 30px; /* Учитывая ширину и отступ блока #pogoda */
+    margin-right: 30px; /* Учитывая ширину и отступ блока #photo */
+}
+
+#content p {
+    margin: 5px; /* Отступы со всех сторон */
+    text-indent: 20px; /* Абзацный отступ (красная строка) */
+}
+
+/* Стили для плавающего блока */
+.floating-block {
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    margin-right: 30px;
+}
+.floating-block img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px 150px;
+}
+.floating-block p {
+    font-family: Arial, sans-serif; /* Без засечек */
+    font-style: italic;           /* Курсив */
+    font-size: 80%;               /* Размер шрифта 80% от основного */
+    margin: 0;                    /* Без внешних отступов */
+}
+.floating-block a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.floating-block a:hover {
+    text-decoration: underline;
+}
+
+/* Стили скрытого блока */
+#hidden-block {
+    display: none;
+    background-color: #EEEEFF;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Внутренний плавающий блок */
+.inner-floating-block {
+    float: right;
+    margin-left: 15px;
+    text-align: center;
+}
+.inner-floating-block img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px
+}
+.inner-floating-block p {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 80%;
+    margin: 0;
+}
+
+/* Стиль для подвала */
+#footer {
+    background-color: #CCCCCC; /* Серый фон */
+    padding: 5px 10px 10px 10px; /* Внутренние отступы */
+    text-align: center; /* Выравнивание текста по центру */
+    clear: both; /* Убираем обтекание */
+}
